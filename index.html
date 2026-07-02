@@ -270,8 +270,9 @@
         </p>
 
         <p>
-          I am a PhD candidate in Economics at the University of Cambridge. My research focuses on
-          market design and information economics. Interested topics include data markets, smart contracts, learning, and simplicity.
+          I am a PhD candidate in Economics at the University of Cambridge, working on market design and
+          information economics, with experimental and behavioural methods. My research interests include
+          data markets, the economics of AI, and human–AI interaction.
         </p>
 
         <p>
@@ -280,10 +281,6 @@
 
         <p class="contact-line">
           📧 <a href="mailto:lq230@cam.ac.uk">lq230@cam.ac.uk</a>
-          &nbsp;·&nbsp;
-          <a href="CV.pdf" target="_blank" rel="noopener">CV (PDF)</a>
-          &nbsp;·&nbsp;
-          <a href="https://scholar.google.com/citations?user=[ID]" target="_blank" rel="noopener">Google Scholar</a>
         </p>
       </div>
     </div>
@@ -297,24 +294,11 @@
     <div class="paper jmp">
       <span class="badge">Job Market Paper</span>
       <div class="title">Simple Strategies in Information Ripples</div>
-      <div class="links">
-        <a href="papers/JMP.pdf" target="_blank" rel="noopener">PDF</a>
-        <a href="papers/JMP_slides.pdf" target="_blank" rel="noopener">Slides</a>
-        <!-- <a href="#" target="_blank">SSRN</a> -->
-      </div>
-      <details class="abstract">
-        <summary>Abstract</summary>
-        <p>
-          Many economic environments—first-price auctions, tournaments, sorting, etc.—are decentralized games with population-dependent 
-          payoffs in which agents lack common knowledge of the type distribution, and Bayesian Nash equilibrium is typically non-unique. 
-          We replace equilibrium analysis with three primitives: an anchor each agent computes from her own type alone, 
-          an information ripple that peaks at her type and decays with distance in type space, and a single round of best response. 
-          Each type is simple if her optimal action is the same under every admissible ripple, sensitive otherwise. 
-          Simplicity holds whenever the anchor payoff gap exceeds twice the worst-case ripple distortion. Our main result is that under 
-          independent type marginals every type is simple-precisely where Nash equilibrium admits a continuum of self-fulfilling 
-          allocations, the framework delivers a unique prediction for every agent. First-price auctions provide the leading application, 
-          nesting existing projection and level-k models as special ripples.
-      </details>
+      <p class="small muted" style="margin-top:6px;">
+        Measuring the tradeoff between the predictability of actions and the principal’s objective when cognition
+        prefers simple verification.
+      </p>
+      <div class="links muted"><em>Draft coming soon</em></div>
     </div>
 
     <h3>Working Papers</h3>
@@ -322,49 +306,35 @@
     <div class="paper">
       <div class="title">Learning-Optimal Design of Data Markets</div>
       <div class="authors">with Yangbo Song</div>
-      <div class="muted small">[Revise &amp; Resubmit, Journal Name] · [Year]</div>
-      <div class="links">
-        <a href="papers/WP1.pdf" target="_blank" rel="noopener">PDF</a>
-        <!-- <a href="#" target="_blank">NBER WP</a> -->
-      </div>
-      <details class="abstract">
-        <summary>Abstract</summary>
-        <p>We study the design of data markets with strategic role selection. A continuum of agents
-each receive an i.i.d. private signal regarding an uncertain state, and decides whether to
-become a seller who trades off their signal for monetary revenue, a buyer who receives a
-signal from sellers and subsequently acts based on two signals, or a non-participant who
-acts solely according to their own signal. Each agent is better off when they make a costly
-final investment matching the true state. A market designer commits to a transfer function and aims to optimize information aggregation among agents. For state-independent
-markets where transfers only rely on an agent’s role and the overall measures of buyers
-and sellers, e.g. the standardized data trading platforms, we show the robust existence of
-a “digital market for lemons” even under the optimal design: the least informed agents
-sell, the moderately informed buy, while the most informed opt out. Nevertheless, a statedependent market which links the state to sellers’ revenue, e.g. blockchain-empowered
-networks offering data-quality-based rewards, may reverse the role distribution and restore information efficiency. Under the optimal design, the most informed agent(s) sell
-their signal to all others, whose aggregate action achieves maximum possible correctness
-in markets with a single transaction. Moreover, while the designer must pay a net subsidy
-for implementing a learning-optimal state-independent market, she can make a positive
-profit from a state-dependent one.</p>
-      </details>
-    </div>
-
-    <div class="paper">
-      <div class="title">Simple Subject Choice</div>
-      <div class="links">
-        <a href="papers/WP2.pdf" target="_blank" rel="noopener">PDF</a>
-      </div>
-      <details class="abstract">
-        <summary>Abstract</summary>
-        <p>[Abstract.]</p>
-      </details>
-    </div>
-
-    <h3>Work in Progress</h3>
-    <div class="paper">
-      <div class="title">Two-Sided Screening</div>
-      <div class="authors">with [Coauthor]</div>
-      <p class="small muted" style="margin-top:4px;">
-        How should a designer screen two-sided players for improving matching quality?
+      <p class="small muted" style="margin-top:6px;">
+        Fixed prices and entry fees don’t work for data markets — we need smart contracts that divide the revenue
+        from resolving uncertainty.
       </p>
+      <div class="links">
+        <a href="papers/Learning-Optimal-Data-Markets.pdf" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </div>
+
+    <div class="paper">
+      <div class="title">Simple Subject(-ive) Choice</div>
+      <p class="small muted" style="margin-top:6px;">
+        More or fewer STEM graduates for China when students can(not) simply select subjects in centralised
+        college entrance exams.
+      </p>
+      <div class="links muted"><em>Draft coming soon</em></div>
+    </div>
+
+    <h3>Selected Work in Progress</h3>
+    <div class="paper">
+      <div class="title">Sequential R&amp;D and Optimal Information Disclosure</div>
+      <div class="authors">with Bin Liu and Jingfeng Lu</div>
+    </div>
+    <div class="paper">
+      <div class="title">Two-Sided Screening in Matching Markets</div>
+      <div class="authors">with Hanming Fang</div>
+    </div>
+    <div class="paper">
+      <div class="title">Auction with Information Leakage and Privacy Protection</div>
     </div>
 
     <!-- Optional: Publications block — delete if none yet -->
@@ -385,39 +355,47 @@ profit from a state-dependent one.</p>
   <!-- ============ CV ============ -->
   <section id="cv">
     <h2>CV</h2>
-    <p>
-      My full CV is available here:
-      <a href="CV.pdf" target="_blank" rel="noopener"><strong>Download CV (PDF)</strong></a>
-      &nbsp;·&nbsp; Last updated: [Month Year]
-    </p>
+    <p class="small muted">Last updated: June 2026</p>
 
     <h3>Education</h3>
     <ul>
-      <li><strong>PhD in Economics</strong>, University of Cambridge, 2022–Expected 2027</li>
-      <li><strong>MRes in Economics</strong>, University of Cambridge, 2021-2022</li>
-      <li><strong>BBA in Economic Science</strong> (now Heckman Program), CUHK-Shenzhen, 2017-2021</li>
+      <li><strong>PhD in Economics</strong>, University of Cambridge, 2022–Expected 2027<br/>
+        <span class="small muted">Supervisor: Prof. Aytek Erdil · Advisor: Prof. Peter Bossaerts</span></li>
+      <li><strong>MPhil in Economic Research</strong>, University of Cambridge, 2021–2022</li>
+      <li><strong>B.B.A. (Hons, First Class), Economic Science</strong>, CUHK-Shenzhen, 2017–2021<br/>
+        <span class="small muted">Rank 1/433</span></li>
     </ul>
 
-  
+    <h3>Research &amp; Skills</h3>
+    <p class="small">
+      <strong>Interests:</strong> Data Markets, AI Economics, Human–AI Interaction<br/>
+      <strong>Fields:</strong> Market Design, Information Economics, Experimental and Behavioural Economics<br/>
+      <strong>Programming:</strong> Python, R, SQL, Stata, Matlab; AI-assisted: Claude Code, Codex
+    </p>
 
-    <h3>References</h3>
-    <div class="contact-grid">
-      <dt>Aytek Erdil</dt>
-      <dd> University of Cambridge · <a href="mailto:[email]">nae25@cam.ac.uk</a></dd>
-      <dt>Peter Bossaerts</dt>
-      <dd> University of Cambridge · <a href="mailto:[email]">plb32@cam.ac.uk</a></dd>
-      <dt>Yangbo Song</dt>
-      <dd> CUHK-Shenzhen · <a href="mailto:[email]">yangbosong@cuhk.edu.cn</a></dd>
-    </div>
+    <h3>Selected Presentations</h3>
+    <ul class="courses">
+      <li>Econometric Society Asia Meeting, Hong Kong, 2026</li>
+      <li>Game Theory Society, 13th Oligo Workshop, 2025</li>
+      <li>Paris School of Economics, 20th Doctorissimes, 2025</li>
+    </ul>
+
+    <h3>Honours &amp; Awards</h3>
+    <ul class="courses">
+      <li>Keynes Fund PhD Awards Scheme, 2025 &amp; 2026</li>
+      <li>Cambridge Trust Fund, 2025 &amp; 2026</li>
+      <li>CSC Cambridge International Scholarship, 2022–2025</li>
+      <li>Outstanding Students Award, CUHK-Shenzhen, 2021 (one of eleven recipients university-wide)</li>
+    </ul>
   </section>
 
   <!-- ============ TEACHING ============ -->
   <section id="teaching">
-    
+
     <h2>Teaching</h2>
     <ul class="courses">
-      <li>E100: Microeconomics (graduate), University of Cambridge, 2024-2026</li>
-      <li>Part IIA: Microeconomics (undergraduate), University of Cambridge, 2023-2024</li>
+      <li>E100: Microeconomics (MPhil in Economics &amp; MPhil in Economics and Data Science), University of Cambridge, 2024–2025</li>
+      <li>Paper IIA: Microeconomics (undergraduate, King’s College supervision), University of Cambridge, 2023–2024</li>
     </ul>
 
     <p>
@@ -443,7 +421,7 @@ profit from a state-dependent one.</p>
 
 <footer>
   <span>© 2026 Li Quan</span>
-  <span>Last updated: April 2026</span>
+  <span>Last updated: June 2026</span>
 </footer>
 
 </body>
