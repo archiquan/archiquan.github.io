@@ -23,6 +23,8 @@ The links in `index.html` point at these exact names (case-sensitive, hyphens, n
 | "Choosing Your Competition: Predictable Subject Choice in China's Highest Exam" | `papers/Choosing-Your-Competition.pdf` |
 | "Learning-Optimal Design of Data Markets" (with Yangbo Song) | `papers/Learning-Optimal-Data-Markets.pdf` |
 | E100 teaching evaluation, Michaelmas 2025–26 | `teaching/E100-Teaching-Evaluation-2025-26.pdf` |
+| Research statement (linked under the Research heading) | `papers/Research-Statement.pdf` |
+| Teaching statement (linked at the end of Teaching) | `teaching/Teaching-Statement.pdf` |
 
 - **New draft of an existing paper:** copy it over the old file under the same name. Don't add a
   second file or change the link, so links people already have keep working.
